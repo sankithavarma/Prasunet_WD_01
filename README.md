@@ -1,5 +1,6 @@
 # Prasunet_WD_01
-Interactive Navigation Menu with Scroll and Hover Effects
+# Responsive Landing Page
+
 This project demonstrates the implementation of an interactive navigation menu that enhances user experience with dynamic style changes. The navigation menu has a fixed position, ensuring it is always visible as users scroll through the page. Key features include color and style changes upon scrolling and when hovering over menu items.
 
 Features
