@@ -1,0 +1,95 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-item a:hover {
+    background-color: #ffde59;
+    color: #333;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 100px 20px;
+    height: 100vh; /* Full height of the viewport */
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Lighter Gradient Backgrounds */
+#home {
+    background: linear-gradient(45deg, #ffecb3, #ffe0b2);
+}
+
+#about {
+    background: linear-gradient(45deg, #c5cae9, #e8eaf6);
+}
+
+#services {
+    background: linear-gradient(45deg, #b2dfdb, #e0f7fa);
+}
+
+#team {
+    background: linear-gradient(45deg, #ffe0b2, #ffccbc);
+}
+
+#contact {
+    background: linear-gradient(45deg, #dcedc8, #f0f4c3);
+}
+
+/* Scroll Effect */
+.scrolled {
+    background-color: #ffde59 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
